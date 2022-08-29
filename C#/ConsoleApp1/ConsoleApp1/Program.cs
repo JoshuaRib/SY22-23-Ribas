@@ -11,50 +11,6 @@ namespace ConsoleApp1
        
         static void Main(string[] args)
         {
-            //int x;
-            //int y=0;
-            //Console.WriteLine("enter your age");
-            //x=int.Parse(Console.ReadLine());
-            //Console.Write(x);
-            //Console.ReadKey();
-            //Console.WriteLine("Your age is "+ x);
-            //Console.ReadLine();
-            //Console.WriteLine("Your age is {0}.", x);
-            //Console.ReadLine();
-            //Console.WriteLine($"Your age is {x}");
-            //Console.ReadLine();
-            //String answer = "d";
-            //Console.ReadLine();
-            //Console.WriteLine("How dumb is Mr.Clarke\n"+
-            //    "a.not\n" +
-            //    "b.not\n" +
-            //    "c.not\n" +
-            //    "d.Super very dumb\n");
-            //answer = Console.ReadLine();
-            //if (answer == "d")
-            //{
-            //    y++;
-            //}
-            //Console.ReadLine();
-            //Console.WriteLine("Is this class awesome\n" +
-            //    "a.Yes\n" +
-            //    "b.No\n" );
-            //answer = Console.ReadLine();
-            //if (answer == "b")
-            //{
-            //    y++;
-            //}
-            //Console.ReadLine();
-            //Console.WriteLine("Are you lying?\n" +
-            //    "a.Yes\n" +
-            //    "b.No\n");
-            //answer = Console.ReadLine();
-            //if (answer == "b")
-            //{
-            //    y++;
-            //}
-            //Console.ReadLine();
-            //Console.WriteLine("Amount correct: "+y);
             int correct = 0;
             correct+=showquestion("How dumb is Mr.Clarke", "\n a)no","\n b)very", "\n c)genius", "\n d)pretty dumb","b");
             Console.ReadLine();
