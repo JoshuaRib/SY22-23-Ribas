@@ -21,6 +21,14 @@ namespace Game
         public override bool collision(PictureBox other)
         {
             Debug.Print(m_picture.Name + " collided with " + other.Name);
+            if (other.Name == "pictureBox3")
+            {
+                Environment.Exit(0);
+            }
+            if (other.Name == "pictureBox4")
+            {
+                Environment.Exit(0);
+            }
             // We collided, so let's figure out which way we should "bounce"
             // Clear
             if (m_xdir != 0)
@@ -42,6 +50,7 @@ namespace Game
             m_ydir = 0;
             move(m_xdir,0);
             m_ydir = tmpY;
+            move(m_xdir + 1, m_ydir);
         }
     }
 }

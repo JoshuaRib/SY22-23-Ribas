@@ -17,6 +17,7 @@ namespace Game
         Sprite p1;
         Chaser p2;
         Ball b1;
+        gamewin Win;
 
         public Form1()
         {
@@ -26,6 +27,7 @@ namespace Game
             p1 = new Sprite(player);
             p2 = new Chaser(player2);
             b1 = new Ball(Ballpicture, 5, 5);
+            Win = new gamewin(pictureBox3);
             c.Add(p1);
             c.Add(p2);
             c.Add(b1);
@@ -57,22 +59,22 @@ namespace Game
             {
                 p1.movedown();
             }
-            if (e.KeyCode == Keys.A)
-            {
-                p2.moveleft();
-            }
-            if (e.KeyCode == Keys.D)
-            {
-                p2.moveright();
-            }
-            if (e.KeyCode == Keys.W)
-            {
-                p2.moveup();
-            }
-            if (e.KeyCode == Keys.S)
-            {
-                p2.movedown();
-            }
+            //if (e.KeyCode == Keys.A)
+            //{
+            //    p2.moveleft();
+            //}
+            //if (e.KeyCode == Keys.D)
+            //{
+            //    p2.moveright();
+            //}
+            //if (e.KeyCode == Keys.W)
+            //{
+            //    p2.moveup();
+            //}
+            //if (e.KeyCode == Keys.S)
+            //{
+            //    p2.movedown();
+            //}
             if (e.KeyCode == Keys.Space)
             {
                 PictureBox p = new PictureBox();
@@ -104,7 +106,10 @@ namespace Game
             c.tick();
         }
 
+        private void Form1_Load(object sender, EventArgs e)
+        {
 
+        }
     }
 
 }

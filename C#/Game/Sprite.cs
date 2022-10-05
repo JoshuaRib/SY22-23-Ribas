@@ -28,7 +28,7 @@ namespace Game
         public Form1 GetForm1() { return m_parent.m_parent; }
         public virtual void tick()
         {
-            movedown();
+            //movedown();
         }
         virtual public bool collision(PictureBox other)
         {
