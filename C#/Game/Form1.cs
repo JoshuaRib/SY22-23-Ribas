@@ -17,7 +17,7 @@ namespace Game
         Sprite p1;
         Chaser p2;
         Ball b1;
-        gamewin Win;
+        Gamewin Win;
 
         public Form1()
         {
@@ -27,7 +27,7 @@ namespace Game
             p1 = new Sprite(player);
             p2 = new Chaser(player2);
             b1 = new Ball(Ballpicture, 5, 5);
-            Win = new gamewin(pictureBox3);
+            Win = new Gamewin(pictureBox3);
             c.Add(p1);
             c.Add(p2);
             c.Add(b1);
@@ -36,11 +36,11 @@ namespace Game
         private void Form1_KeyDown(object sender, KeyEventArgs e)
         {
 
-            if (e.Shift && progressBar1.Value > 2)
-            {
-                p1.m_speed = 10;
-                progressBar1.Value--;
-            }
+            //if (e.Shift && progressBar1.Value > 2)
+            //{
+            //    p1.m_speed = 10;
+            //    progressBar1.Value--;
+            //}
 
 
             if (e.KeyCode == Keys.Left)

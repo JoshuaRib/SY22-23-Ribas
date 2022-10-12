@@ -8,11 +8,11 @@ using System.Windows.Forms;
 
 namespace Game
 {
-    internal class gamewin
+    internal class Gamewin
     {
         public PictureBox m_picture;
         Form1 m_parent;
-        public gamewin(PictureBox picture)
+        public Gamewin(PictureBox picture)
         {
             m_picture = picture;
         }

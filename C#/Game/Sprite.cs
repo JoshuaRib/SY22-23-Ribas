@@ -45,19 +45,19 @@ namespace Game
         }
         public void moveleft()
         {
-            move(-1, 0);
+            move(-3, 0);
         }
         public void moveright()
         {
-            move(1, 0);
+            move(3, 0);
         }
         public void moveup()
         {
-            move(0, -1);
+            move(0, -3);
         }
         public void movedown()
         {
-            move(0, 1);
+            move(0, 3);
         }
     }
 

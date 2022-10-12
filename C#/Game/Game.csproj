@@ -100,5 +100,8 @@
   <ItemGroup>
     <None Include="Resources\hqdefault.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %2810%29.jfif" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

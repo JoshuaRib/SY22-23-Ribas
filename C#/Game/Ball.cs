@@ -34,7 +34,7 @@ namespace Game
             if (m_xdir != 0)
                 m_xdir *= -1; 
             else
-                m_ydir *= -1;
+                m_ydir = -1;
             
             return false; // bounce
         }
