@@ -1,0 +1,8 @@
+C:\Users\jarib251\Documents\SY22-23-Ribas\C#\looping\looping\bin\Debug\looping.exe.config
+C:\Users\jarib251\Documents\SY22-23-Ribas\C#\looping\looping\bin\Debug\looping.exe
+C:\Users\jarib251\Documents\SY22-23-Ribas\C#\looping\looping\bin\Debug\looping.pdb
+C:\Users\jarib251\Documents\SY22-23-Ribas\C#\looping\looping\obj\Debug\looping.csproj.AssemblyReference.cache
+C:\Users\jarib251\Documents\SY22-23-Ribas\C#\looping\looping\obj\Debug\looping.csproj.SuggestedBindingRedirects.cache
+C:\Users\jarib251\Documents\SY22-23-Ribas\C#\looping\looping\obj\Debug\looping.csproj.CoreCompileInputs.cache
+C:\Users\jarib251\Documents\SY22-23-Ribas\C#\looping\looping\obj\Debug\looping.exe
+C:\Users\jarib251\Documents\SY22-23-Ribas\C#\looping\looping\obj\Debug\looping.pdb
