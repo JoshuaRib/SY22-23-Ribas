@@ -1,0 +1,8 @@
+C:\Users\jarib251\Documents\SY22-23-Ribas\C#\morestupidloops\morestupidloops\bin\Debug\morestupidloops.exe.config
+C:\Users\jarib251\Documents\SY22-23-Ribas\C#\morestupidloops\morestupidloops\bin\Debug\morestupidloops.exe
+C:\Users\jarib251\Documents\SY22-23-Ribas\C#\morestupidloops\morestupidloops\bin\Debug\morestupidloops.pdb
+C:\Users\jarib251\Documents\SY22-23-Ribas\C#\morestupidloops\morestupidloops\obj\Debug\morestupidloops.csproj.AssemblyReference.cache
+C:\Users\jarib251\Documents\SY22-23-Ribas\C#\morestupidloops\morestupidloops\obj\Debug\morestupidloops.csproj.SuggestedBindingRedirects.cache
+C:\Users\jarib251\Documents\SY22-23-Ribas\C#\morestupidloops\morestupidloops\obj\Debug\morestupidloops.csproj.CoreCompileInputs.cache
+C:\Users\jarib251\Documents\SY22-23-Ribas\C#\morestupidloops\morestupidloops\obj\Debug\morestupidloops.exe
+C:\Users\jarib251\Documents\SY22-23-Ribas\C#\morestupidloops\morestupidloops\obj\Debug\morestupidloops.pdb

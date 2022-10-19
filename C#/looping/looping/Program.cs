@@ -20,7 +20,7 @@ namespace looping
             //WriteLine("enter a high number");
             //upper = int.Parse(ReadLine());
             //WriteLine(upper);
-            //count using ++
+            ////count using ++
             //for (int i = 100; i <= 1; i++)
             //{
             //    WriteLine();
